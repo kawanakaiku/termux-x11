@@ -199,8 +199,8 @@ public final class InputEventSender {
         }
 
         // Ignoring Android's autorepeat.
-        if (e.getRepeatCount() > 0)
-            return true;
+        //if (e.getRepeatCount() > 0)
+        //    return true;
 
         if (pointerCapture && keyCode == KEYCODE_ESCAPE && !pressed)
             v.releasePointerCapture();
